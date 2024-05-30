@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/displayGuestContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayGuestFragment">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/categoryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/nameText"
+        app:layout_constraintStart_toStartOf="@id/nameText"
+        android:layout_marginTop="8dp"
+        android:text="Category" />
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/categoryText"
+        app:layout_constraintStart_toStartOf="@id/categoryText"
+        android:layout_marginTop="8dp"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/addressText"
+        app:layout_constraintStart_toStartOf="@id/addressText"
+        android:layout_marginTop="8dp"
+        android:text="Age" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

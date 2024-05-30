@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue">#ADD8E6</color> <!-- Jasny niebieski -->
+    <color name="family_color">#90EE90</color> <!-- Jasnozielony -->
+    <color name="friend_color">#40E0D0</color> <!-- Jasnoturkusowy -->
+    <color name="companion_color">#D8BFD8</color> <!-- Jasnofioletowy -->
+</resources>

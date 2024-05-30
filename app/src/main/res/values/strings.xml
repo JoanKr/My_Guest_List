@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MyToDo</string>
+    <string name="name_label">Name</string>
+    <string name="category_label">Category</string>
+    <string name="address_label">Address</string>
+    <string name="age_label">Age</string>
+
+    <string name="enter_guest_name">Enter guest\'s name</string>
+    <string name="enter_guest_age">Enter guest\'s age</string>
+    <string name="enter_guest_address">Enter guest\'s address</string>
+
+    <string name="friend">Friend</string>
+    <string name="family">Family</string>
+    <string name="companion">Companion</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="guest_added_successfully">Guest added successfully</string>
+    <string name="error_no_name">Please enter a name</string>
+    <string name="error_invalid_age">Please enter a valid age</string>
+    <string name="error_no_address">Please enter an address</string>
+
+    <string name="confirm_delete_guest">Are you sure you want to delete this guest?</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="low">Low</string>
+    <string name="normal">Normal</string>
+    <string name="high">High</string>
+
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="enter_task_details">Enter task details</string>
+    <string name="default_task_title">Task</string>
+    <string name="no_desc_msg">No description provided</string>
+    <string name="title_fragment">Title</string>
+    <string name="description_fragment">Description</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="category">Category</string>
+    <string name="name">Name</string>
+    <string name="no_name_msg">Please enter a name</string>
+    <string name="invalid_age_msg">Please enter a valid age</string>
+    <string name="no_address_msg">Please enter an address</string>
+    <string name="john_doe">John Doe</string>
+    <string name="_1234_main_st_anytown">1234 Main St, Anytown</string>
+    <string name="age_30">Age: 30</string>
+    <string name="guest_deleted_successfully">Guest deleted successfully</string>
+</resources>

@@ -1,0 +1,44 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/guestListFragment">
+
+    <fragment
+        android:id="@+id/guestListFragment"
+        android:name="com.example.mytodo.GuestListFragment"
+        android:label="Guest List"
+        tools:layout="@layout/fragment_guest_list">
+        <action
+            android:id="@+id/action_guestListFragment_to_addGuestFragment"
+            app:destination="@id/addGuestFragment" />
+        <action
+            android:id="@+id/action_guestListFragment_to_displayGuestFragment"
+            app:destination="@id/displayGuestFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addGuestFragment"
+        android:name="com.example.mytodo.AddGuestFragment"
+        android:label="Add or Edit Guest"
+        tools:layout="@layout/fragment_add_guest">
+        <argument
+            android:name="guestToEdit"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/displayGuestFragment"
+        android:name="com.example.mytodo.DisplayGuestFragment"
+        android:label="Display Guest"
+        tools:layout="@layout/fragment_display_guest">
+        <argument
+            android:name="guestId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_displayGuestFragment_to_addGuestFragment"
+            app:destination="@id/addGuestFragment" />
+    </fragment>
+</navigation>
