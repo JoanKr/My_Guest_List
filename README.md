@@ -23,6 +23,7 @@ The Guest List App allows you to manage a list of guests invited to various occa
 *Guest list view*
 
 ![Adding a Guest](AddGuest.png)
+
 *View for adding a new guest*
 
 ## License
